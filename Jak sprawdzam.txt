@@ -1,0 +1,12 @@
+Kryteria na procenty: (takie proste nie ma co kombinować)
+1. Małe litery 20%
+2. Duże litery 20%             - przynajmniej po jednym
+3. Znaki specjalne 20%
+4. Liczby 20%
+5. Długość hasła 1-3 = 5%, 4-6 = 10%, 7-8 = 15%, > 8 20%
+
+Algortym:
+Tworzę tablicę żeby sprawdzić czy każda z możliwtch znaków znajduje się w haśle.
+Każdy osobny znak sprawdzam czy należy do którejś z tablic.
+
+Na koniec podliczam punkty sprawdzając jakie znaki znajdują się w haśle i dodając punkty za długość hasła.
